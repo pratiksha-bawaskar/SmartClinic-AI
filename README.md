@@ -10,8 +10,10 @@ A full-stack healthcare management system with AI chatbot integration, built usi
 - **AI Integration**: GPT-4o via Emergent Universal LLM Key
 - **Deployment**: Emergent IDE + Kubernetes
 
-## 🌐 Live Demo
 
+## 🌐 Live Demo
+SmartClinic AI – Preview
+Explore the intelligent health assistant in action: role-based login, patient management, appointment scheduling, and AI-powered chatbot.
 
 ## 📋 Features
 - Patient registration and management
