@@ -13,6 +13,7 @@ A full-stack healthcare management system with AI chatbot integration, built usi
 
 ## 🌐 Live Demo
 SmartClinic AI – Preview
+https://health-assistant-34.preview.emergentagent.com/
 Explore the intelligent health assistant in action: role-based login, patient management, appointment scheduling, and AI-powered chatbot.
 
 ## 📋 Features
