@@ -157,9 +157,12 @@ const Appointments = () => {
                 New Appointment
               </Button>
             </DialogTrigger>
-            <DialogContent className="max-w-2xl">
+            <DialogContent className="max-w-2xl" aria-describedby="appointment-dialog-description">
               <DialogHeader>
                 <DialogTitle>{editingAppointment ? 'Edit Appointment' : 'Schedule Appointment'}</DialogTitle>
+                <p id="appointment-dialog-description" className="sr-only">
+                  {editingAppointment ? 'Edit appointment details form' : 'Schedule new appointment form'}
+                </p>
               </DialogHeader>
               <form onSubmit={handleSubmit} className="space-y-4">
                 <div>
