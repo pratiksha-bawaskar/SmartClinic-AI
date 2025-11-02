@@ -146,9 +146,12 @@ const Patients = () => {
                 Add Patient
               </Button>
             </DialogTrigger>
-            <DialogContent className="max-w-2xl max-h-[90vh] overflow-y-auto">
+            <DialogContent className="max-w-2xl max-h-[90vh] overflow-y-auto" aria-describedby="patient-dialog-description">
               <DialogHeader>
                 <DialogTitle>{editingPatient ? 'Edit Patient' : 'Add New Patient'}</DialogTitle>
+                <p id="patient-dialog-description" className="sr-only">
+                  {editingPatient ? 'Edit patient information form' : 'Add new patient information form'}
+                </p>
               </DialogHeader>
               <form onSubmit={handleSubmit} className="space-y-4">
                 <div className="grid grid-cols-2 gap-4">
